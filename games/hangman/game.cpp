@@ -8,6 +8,5 @@ int main() {
     bool win{false};
     
     difficulty(tries);
-
     game(tries, win);
 }
