@@ -6,7 +6,8 @@ int main() {
     using std::cout;
     int tries{};
     bool win{false};
-    difficulty(tries);
     
+    difficulty(tries);
+
     game(tries, win);
 }
