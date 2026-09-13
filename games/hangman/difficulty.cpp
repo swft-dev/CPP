@@ -14,6 +14,7 @@ void difficulty(int& tries){
             case 3: tries = 6; break;
             default: tries = 8;
         }
+        
     } catch (const std::out_of_range& e) {
         std::cerr << "\nError: [" << e.what() << "]\n";
         tries = 8;
