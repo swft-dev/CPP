@@ -5,7 +5,7 @@
 
 namespace fs = std::filesystem;
 
-int main(){   
+int main() {   
     fs::path Path{"data.txt"};
     using std::cout;
 
